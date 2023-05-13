@@ -1,0 +1,49 @@
+.jcarousel-skin .jcarousel-container-horizontal {
+    width: 649px;
+    padding: 12px 40px;
+	margin: 0 auto;
+}
+
+.jcarousel-skin .jcarousel-item {
+    width: 111px;
+}
+
+.jcarousel-skin .jcarousel-item-horizontal {
+    margin: 0px 19px 0px 0px;
+}
+
+.jcarousel-skin .jcarousel-next-horizontal {
+	display:inline-block;
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    width: 16px;
+    height: 51px;
+    cursor: pointer;
+    background: transparent url(../imagens/proximo.png);
+	background-position:0px 0px;
+}
+
+.jcarousel-skin .jcarousel-next-horizontal:hover {
+	background-position:0px -51px;
+}
+
+.jcarousel-skin .jcarousel-prev-horizontal {
+	display:inline-block;
+    position: absolute;
+    top: 22px;
+    left: 5px;
+    width: 16px;
+    height: 51px;
+    cursor: pointer;
+    background: transparent url(../imagens/anterior.png);
+	background-position:0px 0px;
+}
+
+.jcarousel-skin .jcarousel-prev-horizontal:hover {
+	background-position:0px -51px;
+}
+
+ul.miniaturas img{
+	cursor:pointer;
+}

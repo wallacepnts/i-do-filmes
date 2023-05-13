@@ -1,0 +1,69 @@
+.block {
+	padding:70px 10px;
+	text-align:left;
+}
+
+.divisoria {
+	font-size: 3px;
+}
+
+br {
+    line-height:'150%';
+}
+.block  p{
+	font-size:14px;
+	color:#fff;
+	line-height:3px;
+}
+
+.element * {
+	padding:0px; 
+}
+.element label {
+	color:#6d5938;
+}
+.element input.text {
+	width:235px;
+	background-color:#e4d8c5;
+	border: none;
+	color: #6d5938;
+	outline: none;
+}
+.element .textarea {
+	height:120px; 
+	width:315px;
+	background-color:#e4d8c5;
+	color: #6d5938;
+	border: none;
+	outline: none;
+	resize:none;
+	overflow:hidden
+}
+.element .hightlight {
+	background: #e4d8c5 url(iconCaution.gif) no-repeat 2px;
+}
+.element #submit {
+	color: #6d5938;
+	border: 0;
+    background: #bfb49d;
+	cursor: pointer;
+	text-transform:uppercase;
+}
+.element #submit:hover {
+	color: #fff;
+    background: #bfb49d;
+}
+.loading {
+	float:right; 
+	background:url(carregando.gif) no-repeat 1px; 
+	height:28px; 
+	width:28px; 
+	display:none;
+}
+.done {
+	padding-left:20px;
+	font-size:22px;
+	width:70%; 
+	margin:10px auto; 
+	display:none
+}

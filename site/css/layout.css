@@ -1,0 +1,39 @@
+
+fieldset{
+	border: 0;
+}
+
+form p { position: relative; margin: 3px 0;}
+form p label { position: absolute; top: 5px; left: 0;}
+form p br {display: none;}
+
+form fieldset p input,
+form fieldset p textarea {
+	display: block;
+	padding: 4px;
+	width: 320px;
+	margin: 0;
+	
+	background-color:#e4d8c5;
+	border: none;
+}
+
+form fieldset p label {
+	width: 320px;
+	display: block;
+	margin: 5px 5px 5px 6px;
+	padding: 0;
+	color: #6d5938;
+}
+
+form fieldset p textarea {
+	padding: 2px;
+	width: 325px;
+	resize:none;
+	overflow:hidden
+}
+
+
+form fieldset p label {
+	color: #6d5938;
+}

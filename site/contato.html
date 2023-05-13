@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>I do Filmes - Contato</title>
+	<meta name="description" content="Uma Empresa formada por profissionais que buscam através da arte, registrar momentos de felicidade com sensibilidade e bom gosto. Nossa intenção é trazer um diferêncial para o mercado de vídeo de casamento e eventos. A linguagem cinematográfica. ">
+    <meta name="author" content="Wallace Pontes">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href="css/estilo.css" rel="stylesheet" type="text/css" />
+	<link href="css/formulario.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+	
+		<link rel="stylesheet" href="css/layout.css" type="text/css" media="all" charset="utf-8" />
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.infieldlabel.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(function(){ $("label").inFieldLabels(); });
+	</script>
+	
+</head>
+<body>
+	<div id="pagina">
+		<div class="cabeçalho">
+			<a href="http://www.idofilmes.com.br/"><img class=logo src="./imagens/logo.png" /></a>
+			<div class="social">
+			<a href="http://www.facebook.com/IDoFilmes" class="facebook" title="Facebook" target="_blank"></a>
+			<a href="https://twitter.com/IDoFilmes" class="twitter" title="Twitter" target="_blank"></a>
+			</div>
+		</div>
+		<div class="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="sobre.html">i do filmes</a></li>
+			<li><a href="contato.html">Contato</a></li>
+			<li><a href="#">Blog</a></li>
+		</ul>
+		</div>
+		<div class="conteudo2">
+			<div class="block">
+
+			<div class="done">
+			<b>Obrigado!</b> Recebi sua mensagem, entrarei em contato em breve. 
+			</div>
+			<div class="form">
+			<form method="post" action="process.php">
+			<fieldset>
+			<p>
+				<label for="name">SEU NOME</label><br />
+				<input type="text" name="name" value="" id="name">
+			</p>
+			<p>
+				<label for="email">SEU E-MAIL</label><br />
+				<input type="text" name="email" value="" id="email">
+			</p>
+			<p>
+				<label for="comment">SUA MENSAGEM</label><br />
+				<textarea cols="30" rows="10" name="comment" id="comment"></textarea>
+			</p>
+			</fieldset>
+			<div class="divisoria">&nbsp;</div>
+			<div class="element">
+			<input value="ENVIAR" type="submit" id="submit"/>
+			<div class="loading"></div>
+			</div>
+			</form>
+			<p>contatoidofilmes@gmail.com</p>
+			<p>(21) 3264 - 6730 / 7675-7489</p>
+			</div>
+		</div>
+		</div>
+		<div class="rodape">
+		all images copyright © idofilmes
+		<br>desenvolvido por <a href="#">Daniel Lima</a>, <a href="#">Raphael</a> e <a href="#">Wallace Pontes</a>
+		</div>
+	</div>
+</body>
+</html>

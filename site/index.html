@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>I do Filmes</title>
+	<meta name="description" content="Uma Empresa formada por profissionais que buscam através da arte, registrar momentos de felicidade com sensibilidade e bom gosto. Nossa intenção é trazer um diferêncial para o mercado de vídeo de casamento e eventos. A linguagem cinematográfica. ">
+    <meta name="author" content="Wallace Pontes">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href="css/estilo.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/skin.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+	<script src="js/vimeowrap.js"></script>
+	<script src="js/vimeowrap.carousel.js"></script>
+</head>
+<body>
+	<div id="pagina">
+		<div class="cabeçalho">
+			<a href="http://www.idofilmes.com.br/"><img class=logo src="./imagens/logo.png" /></a>
+			<div class="social">
+			<a href="http://www.facebook.com/IDoFilmes" class="facebook" title="Facebook" target="_blank"></a>
+			<a href="https://twitter.com/IDoFilmes" class="twitter" title="Twitter" target="_blank"></a>
+			</div>
+		</div>
+		<div class="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="sobre.html">i do filmes</a></li>
+			<li><a href="contato.html">Contato</a></li>
+			<li><a href="#">Blog</a></li>
+		</ul>
+		</div>
+		<div class="conteudo">
+		<div id="player"></div>
+		<script>
+		vimeowrap('player').setup({
+        width: 778,
+        height: 438,
+        color: 'bfb49d',
+        autoplay: false,
+        portrait: false,
+        title: true,
+        byline: false,
+        urls: [
+            'http://vimeo.com/user9410249'
+        ],
+        plugins: {
+            'carousel': {
+				
+                 width: 778,
+                 height: 150,
+                 offsetx: 30,
+                 offsety: 5,
+                 visible: 5,
+                 autoplay: true,
+                 thumb: {
+                     width: 126,
+                     height: 71,   
+                     quality: 'large'
+                 }
+            }
+        }
+    });
+</script>
+
+		</div>
+		<div class="rodape">
+		all images copyright © idofilmes
+		<br>desenvolvido por <a href="mailto:contatoidofilmes@gmail.com">Daniel Lima</a>, <a href="mailto:raphafilth1@yahoo.com.br">Raphael</a> e <a href="http://wallacepnts.com/">Wallace Pontes</a>
+		</div>
+	</div>
+</body>
+</html>
