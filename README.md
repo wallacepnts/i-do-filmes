@@ -4,10 +4,11 @@
 
 ![Captura](imagens/captura.jpg "Captura de tela do site")
 
-Site criado em abril de 2013 com código feito por mim e Raphael Jangi e design feito por Daniel Lima.
+Site feito para a produtora de vídeo voltada para vídeos casamentos I do Filmes.
 
 ## Criação
 
+Site criado em abril de 2013 com código feito por mim e Raphael Jangi e design feito por Daniel Lima.
 O site foi criado no Dreamweaver utilizando uma imagem em PSD com camadas separadas criada pelo Daniel Lima.
 
 Foi utilizado o Vimeowrap que é um script que usa a biblioteca jQuery onde são adicionados automaticamente os últimos vídeos de uma canal do Vimeo em formato de slider.
